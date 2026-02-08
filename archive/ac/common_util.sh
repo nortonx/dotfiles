@@ -118,7 +118,6 @@ export ASSET_HOST=http://localhost:8081
 export BAG_ASSETS_HOST=http://localhost:8081
 export PRODUCT_IMAGE_URL=https://images.bcom-075.tbe.zeus.fdsassets.com/is/image/BLM/products/
 export TARGET_HOST=localhost
-export GOOGLE_API_KEY=key=AIzaSyDcXi5AZomMT8AhPl93OnlnGClWnGZ9Mz4
 export NODE_ENV=development
 # Lines above added after new BCOM project, started in 01.13.2020
 
