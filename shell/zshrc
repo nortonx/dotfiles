@@ -22,6 +22,8 @@ eval "$(~/.local/bin/mise activate bash)"
 eval "$(mise activate zsh)"
 
 source ~/.dotfiles/shell/utils.sh
+# Add Homebrew to your PATH and environment variables
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

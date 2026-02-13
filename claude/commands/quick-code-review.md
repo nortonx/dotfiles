@@ -5,7 +5,7 @@
 /commandname [arguments]
 
 - Look for errors, broken logic, inconsistent code,
-antipatterns, violation of the DRY principle, and breaking 
+duplicated code, dead code, antipatterns, violation of the DRY principle, and breaking 
 changes in the code that was updated or created in this specific branch.
 - Show me a review with the filename, line number where the issue was found, 
 what would be the fix, and explain the quick wins and improvements.
@@ -26,3 +26,9 @@ what would be the fix, and explain the quick wins and improvements.
 - Be patient and understanding.
 - Technical facts and data overrule opinions and personal preferences.
 - If no other rule applies, then the reviewer may ask the author to be consistent with what is in the current codebase, as long as that doesn’t worsen the overall code health of the system.
+- Check for SOLID principles.
+- Check for code smells.
+- Check for naming conventions.
+- Check for performance issues.
+- Check for security vulnerabilities.
+- Check for coding standards and best practices regarding the language/framework being used.
